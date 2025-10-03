@@ -4,7 +4,7 @@
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-4.x-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![JWT](https://img.shields.io/badge/JWT-Authentication-black?logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
-[![Status](https://img.shields.io/badge/Status-In%20Development-FFA500)](https://github.com/rpspgesp1993/crimwatch_dsw)
+[![Status](https://img.shields.io/badge/Status-Complete-green)](https://github.com/DiegoPereira100/crimwatch)
 [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 
 > A robust RESTful API for the CrimWatch system, designed to securely and efficiently manage and serve data on criminal occurrences.
