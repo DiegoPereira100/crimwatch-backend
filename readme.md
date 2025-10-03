@@ -50,24 +50,25 @@ Our RESTful API is designed to solve these challenges by offering:
 
 ## 📁 Project Structure
 
-backend/
-├── src/
-│   ├── config/
-│   │   ├── db.js          # MongoDB connection setup
-│   │   └── upload.js      # Multer configuration for uploads
-│   ├── controllers/
-│   │   ├── ocorrenciaController.js # Logic for occurrence routes
-│   │   └── usuarioController.js    # Logic for user routes (auth)
-│   ├── models/
-│   │   ├── Ocorrencia.js    # Mongoose schema for occurrences
-│   │   └── Usuario.js       # Mongoose schema for users
-│   ├── routes/
-│   │   ├── ocorrenciaRoutes.js # Definition of occurrence endpoints
-│   │   └── usuarioRoutes.js    # Definition of user endpoints
-│   └── server.js          # Express application entry point
-├── .env.example           # Example environment variables file
-├── .gitignore             # Files ignored by Git
-└── package.json           # Project dependencies and scripts
+```
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── db.js          # MongoDB connection setup
+│   │   ├── controllers/
+│   │   │   ├── ocorrenciaController.js # Logic for occurrence routes
+│   │   │   └── usuarioController.js    # Logic for user routes (auth)
+│   │   ├── models/
+│   │   │   ├── Ocorrencia.js    # Mongoose schema for occurrences
+│   │   │   └── Usuario.js       # Mongoose schema for users
+│   │   ├── routes/
+│   │   │   ├── ocorrenciaRoutes.js # Definition of occurrence endpoints
+│   │   │   └── usuarioRoutes.js    # Definition of user endpoints
+│   │   └── server.js          # Express application entry point
+│   ├── .env.example           # Example environment variables file
+│   ├── .gitignore             # Files ignored by Git
+│   └── package.json           # Project dependencies and scripts
+```
 
 ## 🚀 Quick Start Guide
 
